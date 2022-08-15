@@ -1,0 +1,89 @@
+<resources>
+
+	<!-- <item name="android:textColor">@color/controlTextDarck</item>
+		<item name="android:background">@color/controlBackgroundDarck</item>
+		
+		Theme.MaterialComponents.Light.DarkActionBar
+		Theme.MaterialComponents.DayNight-->
+	<style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		
+	</style>
+<!--
+	<style name="DarkTheme">
+		
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:textColor">@color/controlTextDarck</item>
+		<item name="android:background">@color/controlBackgroundDarck</item>
+	</style>
+	
+	<style name="LightTheme">
+	
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:textColor">@color/controlTextLicht</item>
+		<item name="android:background">@color/controlBackgroundLicht</item>
+	</style>
+	-->
+		
+		
+		
+		
+		
+	
+	
+	
+		
+
+	<style name="AppTheme.ToolbarColoreTheme" parent="AppTheme">
+		<item name="android:textColorSecondary">@color/colorAccent</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+		
+	
+	</style>
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+		
+	</style>
+
+	<style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView" >
+
+	</style>
+
+	<!--Theme.AppCompat.Light.NoActionBar-->
+	<style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.DayNight">
+		
+		<item name="android:windowIsFloating">False</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+	</style>
+
+	<style name="AppTheme.Chip.Choice" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+		<item name="chipBackgroundColor">@color/chip_background_color</item>
+		<item name="chipStrokeColor">@color/mtrl_choice_chip_ripple_color</item>
+		<item name="chipStrokeWidth">1dp</item>
+		<item name="android:textColor">@color/mtrl_choice_chip_text_color</item>
+	</style>
+
+	<style name="AppTheme.Slide">
+		<item name="android:windowEnterAnimation">@anim/slide_up</item>
+		<item name="android:windowExitAnimation">@anim/slide_down</item>
+	</style>
+
+
+
+
+
+</resources>
